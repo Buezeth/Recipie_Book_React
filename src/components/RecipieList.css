@@ -1,0 +1,69 @@
+
+.recipie-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.recipie-box {
+    padding: 20px;
+    width: 350px;
+    height: auto;
+    background: #fff;
+    color: black;
+    transition: all ease ;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+.recipie-box:hover {
+    transform: rotate(3deg);
+}
+.cook-this {
+    background: lightgray;
+    padding: 5px;
+    color: #fff;
+}
+.recipie-box h3 {
+    margin-bottom: 5px;
+    color: black;
+}
+.recipie-box p {
+    margin-bottom: 10px;
+    color: gray;
+}
+.time {
+    color: lightgray !important;
+}
+
+.error {
+    text-align: center;
+    margin-top: 50px;
+    color: brown;
+}
+
+.recipie-box.dark {
+    background: #254058;
+}
+.recipie-box.dark .cook-this {
+    background: #213547;
+}
+.delete {
+    margin-left: auto;
+}
+.delete:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.recipie-box.light .delete {
+    filter: invert(50%);
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+}

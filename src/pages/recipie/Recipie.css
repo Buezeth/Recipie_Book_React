@@ -1,0 +1,43 @@
+.recipie {
+    width: 1280px;
+    height: 80vh;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.recipie-discription {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* color: blue; */
+}
+.recipie-discription h1 {
+    color: black;
+}
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 1.25rem;
+}
+ul li:after {
+    content: ", ";
+}
+ul li:last-child::after {
+    content: ".";
+}
+p {
+    padding: 0 5%;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.recipie.dark {
+    background: #254058;
+}

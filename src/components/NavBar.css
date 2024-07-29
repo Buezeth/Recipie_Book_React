@@ -1,0 +1,26 @@
+.nav-bar {
+    background: purple;
+    height: 100px;
+    /* width: 100vw; */
+    padding-top: 20px;
+}
+
+.brand {
+    font-size: 2rem;
+    color: aliceblue;
+    margin-right: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: auto;
+}
+
+.create {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 4px;
+    color: aliceblue;
+}
